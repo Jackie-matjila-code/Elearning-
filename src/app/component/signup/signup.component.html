@@ -1,0 +1,46 @@
+    <div class="container-fluid" id="bod" >
+      <div class="row">
+      <div class="col">
+        <div class="card bg-light mx-auto mb-3" style="max-width: 30rem;">
+       <div class="card-header" id="body">
+            <h4 class="card-title text-center">Sign Up</h4>
+         </div>
+    <div class="card-body" id="body">
+      <form class="mb-3" >
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input class="form-control" type="text" name="name"  placeholder="Name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input class="form-control" type="email" name="email"  placeholder="Email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input class="form-control" type="password" name="password"  placeholder="Password" required>
+        </div>
+           <button type="submit" class="btn btn-primary btn-block">Sign up</button>
+           <div class="register">
+            <a routerLink="">Already Registered Login</a>
+            <div class="formGroup">
+              <button class="btn-primary" type="button " (click)="authservice.GoogleAuth()">
+                Sign-up with Google
+              </button>
+            </div>
+            <div class="formGroup">
+              <button class="btn-primary" type="button" (click)="authservice.FacebookAuth()">
+                 Sign-up with Facebook
+              </button>
+            </div>
+         </div>
+      </form>
+    </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+

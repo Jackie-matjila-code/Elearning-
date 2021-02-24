@@ -1,0 +1,12 @@
+#body{
+  background-image: url(src/assets/curve.jpg);
+  margin-top: 4;
+}
+
+#bod{
+  background-image: url(src/assets/jon.jpg);
+  background-size: cover;
+  padding-bottom: 65.89%;
+  height: 0;
+  background-attachment: fixed;
+}
